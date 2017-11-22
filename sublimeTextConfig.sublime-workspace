@@ -1,0 +1,282 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"_Fa",
+				"_FadeDiffuse"
+			],
+			[
+				"_Fad",
+				"_FadeDiffuse"
+			],
+			[
+				"_FadeS",
+				"_FadeSpecular"
+			],
+			[
+				"_Ou",
+				"_OutlineColor"
+			],
+			[
+				"backgoun",
+				"background-position"
+			],
+			[
+				"tran",
+				"transition"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"scale",
+				"scaleX()"
+			],
+			[
+				"ba",
+				"background-size"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"bor",
+				"border-style"
+			],
+			[
+				"wi",
+				"width"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 490.0,
+		"last_filter": "packa",
+		"selected_items":
+		[
+			[
+				"packa",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 609.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Public/Documents/Unity Projects/GIT_UmbraProject",
+		"/C/Users/Public/Documents/Unity Projects/GIT_UmbraProject/Umbra_Project"
+	],
+	"file_history":
+	[
+		"/C/Users/Public/Documents/Unity Projects/GIT_UmbraProject/Umbra_Project/sublimeTextConfig.sublime-project",
+		"/C/Users/Public/Documents/Unity Projects/GIT_UmbraProject/Umbra_Project/README.md",
+		"/C/Users/Public/Documents/Unity Projects/GIT_UmbraProject/Umbra_Project/Assets/Script/SCR_WaterMove.cs",
+		"/C/Users/QuentinM/AppData/Roaming/Sublime Text 3/Packages/OmniSharp/Default.sublime-keymap",
+		"/C/Users/QuentinM/AppData/Roaming/Sublime Text 3/Packages/User/OmniSharpSublime.sublime-settings",
+		"/C/Users/QuentinM/AppData/Roaming/Sublime Text 3/Packages/OmniSharp/OmniSharpSublime.sublime-settings",
+		"/C/Users/Public/Documents/Unity Projects/GIT_UmbraProject/Umbra_Project/Assets/Material/SHA_celShadow.shader",
+		"/C/Users/Public/Documents/Unity Projects/GIT_UmbraProject/Umbra_Project/Assets/Data/PeerPlay/Ripple Water/_scripts/CollisionScript.cs",
+		"/C/Users/QuentinM/Desktop/REYSS_Alexandre-20171120T200036Z-001/REYSS_Alexandre/controleur.c",
+		"/C/Users/QuentinM/Desktop/REYSS_Alexandre-20171120T200036Z-001/REYSS_Alexandre/visiteur.c",
+		"/C/Users/QuentinM/Desktop/REYSS_Alexandre-20171120T200036Z-001/REYSS_Alexandre/directeur.c",
+		"/C/Users/QuentinM/Desktop/REYSS_Alexandre-20171120T200036Z-001/REYSS_Alexandre/dump.c",
+		"/C/Users/QuentinM/Desktop/REYSS_Alexandre-20171120T200036Z-001/REYSS_Alexandre/musee.c",
+		"/C/Users/QuentinM/Desktop/REYSS_Alexandre-20171120T200036Z-001/REYSS_Alexandre/musee.h",
+		"/C/Users/QuentinM/Desktop/MISSLIN_Quentin/visiteur.c",
+		"/C/Users/QuentinM/Desktop/MISSLIN_Quentin/musee.h",
+		"/C/Users/QuentinM/Desktop/MISSLIN_Quentin/musee.c",
+		"/C/Users/QuentinM/Desktop/MISSLIN_Quentin/dump.c",
+		"/C/Users/QuentinM/Desktop/MISSLIN_Quentin/directeur.c",
+		"/C/Users/QuentinM/Desktop/MISSLIN_Quentin/controleur.c",
+		"/C/Users/Public/Documents/Unity Projects/UmbraProject/Assets/Material/SHA_celShadow.shader",
+		"/C/Quentin/Windows/Programmation/Projets_C++/SDL_SVG_POO/data/SUJET/examples/dessin_grp.svg",
+		"/C/Quentin/Windows/Programmation/Projet_Web/MACAW/ProjetBDD/Img/pattern.svg",
+		"/C/Users/QuentinM/Desktop/ArtusAsso/SiteArtusAsso/index.html",
+		"/C/Users/QuentinM/Desktop/ArtusAsso/SiteArtusAsso/Style/index_Desktop.css",
+		"/C/Users/QuentinM/Desktop/ArtusAsso/SiteArtusAsso/Js/index.js",
+		"/C/Users/Public/Documents/Unity Projects/GIT_UmbraProject/Umbra_Project/Temp/Compiled-SHA_celShadow.shader",
+		"/C/Users/Public/Documents/Unity Projects/UmbraProject/Temp/Compiled-SHA_celShadow.shader",
+		"/C/Quentin/Windows/Programmation/Projet_Web/MACAW/Test1/Test1/index.html",
+		"/C/Users/QuentinM/Desktop/ArtusAsso/ARTUS_CODE.txt",
+		"/C/Quentin/Windows/Programmation/Projet_Web/MACAW/Test1/Test1/css/index.css",
+		"/C/Quentin/Windows/Programmation/Projet_Web/MACAW/Test1/Test1/css/standardize.css",
+		"/C/Quentin/Windows/Programmation/Projet_Web/MACAW/Test1/Test1/css/index-grid.css",
+		"/C/Users/QuentinM/Desktop/ArtusAsso/Maquete2/ArtusAsso2/index.html",
+		"/C/Quentin/Linux/Programmation/Web/HTML/WIKI_ANGLAIS/art.css",
+		"/C/Quentin/Windows/CMI_Informatique/L2/RAPPORT_Stage/gaf_002/SiteAssets/GAF_src/style/gaf_main.css",
+		"/C/Quentin/Windows/CMI_Informatique/L2/RAPPORT_Stage/gaf_002/SiteAssets/GAF_src/style/gaf_scrib.css",
+		"/C/Quentin/Windows/CMI_Informatique/L2/RAPPORT_Stage/gaf_002/SiteAssets/styles.css",
+		"/C/Quentin/Windows/CMI_Informatique/L2/RAPPORT_Stage/gaf_002/SiteAssets/AF_src/style.css",
+		"/C/Quentin/Windows/Programmation/Projet_Web/3d_HTML5_V2/index.html",
+		"/C/Quentin/Windows/Programmation/Projets_C++/SDL_SVG_POO/data/SUJET/examples/dessin_simple.svg",
+		"/C/Quentin/Windows/Programmation/Projets_C++/RoboticMinds4.0/RoboticMinds/main.cpp",
+		"/C/Quentin/Windows/Programmation/Projets_C++/SDL_SVG_POO/data/SUJET/examples/dessin_complex.svg",
+		"/C/Quentin/Windows/CMI_Informatique/L2/RAPPORT_Stage/gaf_002/SiteAssets/AF_src/logo.svg",
+		"/C/Quentin/Windows/Programmation/Projets_C++/SDL_SVG_POO/data/SUJET/examples/mySvgExample.html",
+		"/C/Quentin/Windows/Programmation/Projets_C++/SDL_SVG_POO/data/SVG_PARSER_HELP.txt",
+		"/C/Quentin/Windows/Programmation/Projets_C++/SDL_SVG_POO/data/SUJET/examples/mySvgExample.svg",
+		"/C/Quentin/Windows/Programmation/Projet_Web/3d_HTML5/index.html",
+		"/C/Quentin/Windows/CMI_Informatique/L2/RAPPORT_Stage/gaf_002/SiteAssets/AF_src/logoCarsat.svg"
+	],
+	"find":
+	{
+		"height": 29.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 119.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.variable_get":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "sublimeTextConfig.sublime-project",
+	"replace":
+	{
+		"height": 53.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 396.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

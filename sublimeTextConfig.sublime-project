@@ -1,0 +1,15 @@
+{
+ "folders":
+ [
+  {
+  "follow_symlinks": true,
+  "path": "Assets/Script",
+   "file_exclude_patterns":
+   [
+    "*.dll",
+    "*.meta"
+   ]
+  }
+ ],
+ "solution_file": "C:\\Users\\Public\\Documents\\Unity Projects\\GIT_UmbraProject\\Umbra_Project\\Umbra_Project.sln"
+}
