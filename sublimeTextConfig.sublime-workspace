@@ -59,6 +59,23 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "Assets/Script/SCR_WaterMove.cs",
+			"settings":
+			{
+				"buffer_size": 859,
+				"encoding": "UTF-8 with BOM",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Assets/Data/NatureStarterKit2/Standard Assets/Effects/GlassRefraction/Shaders/GlassStainedBumpDistort.shader",
+			"settings":
+			{
+				"buffer_size": 2486,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -80,7 +97,7 @@
 	},
 	"console":
 	{
-		"height": 0.0,
+		"height": 317.0,
 		"history":
 		[
 		]
@@ -96,17 +113,16 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/Public/Documents/Unity Projects/GIT_UmbraProject",
-		"/C/Users/Public/Documents/Unity Projects/GIT_UmbraProject/Umbra_Project"
+		"/C/Users/Public/Documents/Unity Projects/GIT_UmbraProject/Umbra_Project/Assets/Script"
 	],
 	"file_history":
 	[
+		"/C/Users/QuentinM/AppData/Roaming/Sublime Text 3/Packages/OmniSharp/OmniSharpSublime.sublime-settings",
+		"/C/Users/QuentinM/AppData/Roaming/Sublime Text 3/Packages/User/OmniSharpSublime.sublime-settings",
 		"/C/Users/Public/Documents/Unity Projects/GIT_UmbraProject/Umbra_Project/sublimeTextConfig.sublime-project",
 		"/C/Users/Public/Documents/Unity Projects/GIT_UmbraProject/Umbra_Project/README.md",
 		"/C/Users/Public/Documents/Unity Projects/GIT_UmbraProject/Umbra_Project/Assets/Script/SCR_WaterMove.cs",
 		"/C/Users/QuentinM/AppData/Roaming/Sublime Text 3/Packages/OmniSharp/Default.sublime-keymap",
-		"/C/Users/QuentinM/AppData/Roaming/Sublime Text 3/Packages/User/OmniSharpSublime.sublime-settings",
-		"/C/Users/QuentinM/AppData/Roaming/Sublime Text 3/Packages/OmniSharp/OmniSharpSublime.sublime-settings",
 		"/C/Users/Public/Documents/Unity Projects/GIT_UmbraProject/Umbra_Project/Assets/Material/SHA_celShadow.shader",
 		"/C/Users/Public/Documents/Unity Projects/GIT_UmbraProject/Umbra_Project/Assets/Data/PeerPlay/Ripple Water/_scripts/CollisionScript.cs",
 		"/C/Users/QuentinM/Desktop/REYSS_Alexandre-20171120T200036Z-001/REYSS_Alexandre/controleur.c",
@@ -184,8 +200,71 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "Assets/Script/SCR_WaterMove.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 859,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								175,
+								175
+							]
+						],
+						"settings":
+						{
+							"oops":
+							{
+								"6,17": "'UnityEngine' is not a known identifier",
+								"75,88": "'MonoBehaviour' is not a known identifier"
+							},
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Assets/Data/NatureStarterKit2/Standard Assets/Effects/GlassRefraction/Shaders/GlassStainedBumpDistort.shader",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2486,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2221,
+								2221
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Unity3D Shader Highlighter and Snippets/UnityShader.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1173.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -230,7 +309,7 @@
 	},
 	"output.variable_get":
 	{
-		"height": 0.0
+		"height": 153.0
 	},
 	"pinned_build_system": "",
 	"project": "sublimeTextConfig.sublime-project",
@@ -274,7 +353,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 396.0,
+	"side_bar_width": 63.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
