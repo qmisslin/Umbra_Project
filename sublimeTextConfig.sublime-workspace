@@ -69,6 +69,15 @@
 			}
 		},
 		{
+			"contents": "import bpy\nfor a in bpy.data.actions:\n\tif(a.use_fake_user == False):\n\t\ta.user_clear();",
+			"settings":
+			{
+				"buffer_size": 86,
+				"line_ending": "Windows",
+				"name": "import bpy"
+			}
+		},
+		{
 			"file": "Assets/Data/NatureStarterKit2/Standard Assets/Effects/GlassRefraction/Shaders/GlassStainedBumpDistort.shader",
 			"settings":
 			{
@@ -200,7 +209,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -233,11 +242,39 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 86,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								86
+							]
+						],
+						"settings":
+						{
+							"auto_name": "import bpy",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
 					"file": "Assets/Data/NatureStarterKit2/Standard Assets/Effects/GlassRefraction/Shaders/GlassStainedBumpDistort.shader",
 					"semi_transient": false,
 					"settings":
@@ -262,7 +299,7 @@
 						"translation.y": 1173.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
