@@ -1,4 +1,6 @@
-﻿Shader "Our Toonshader Vol. 3" {
+﻿// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
+Shader "Our Toonshader Vol. 3" {
    Properties {
     
     // Levels
@@ -97,7 +99,7 @@
         );
         
         //fragmentInput output;
-        output.pos = mul( UNITY_MATRIX_MVP, input.vertex );  
+        output.pos = UnityObjectToClipPos( input.vertex );  
         
         //UV-Map
         output.uv =input.texcoord;
