@@ -1,9 +1,9 @@
 fileFormatVersion: 2
 guid: 5944dc15be66bac4bb481d5ca143a524
-timeCreated: 1511735672
+timeCreated: 1511797745
 licenseType: Free
 ModelImporter:
-  serializedVersion: 19
+  serializedVersion: 21
   fileIDToRecycleName:
     100000: ArriereBras_L
     100002: ArriereBras_R
@@ -77,8 +77,9 @@ ModelImporter:
     7400004: AttaqueDebut
     7400006: AttaqueFin
     7400008: Attente
-    7400010: Course
-    7400012: Marche
+    7400010: Attente_001
+    7400012: Course
+    7400014: Marche
     9500000: //RootNode
     13700000: Personnage_Assembl_
   materials:
@@ -91,6 +92,8 @@ ModelImporter:
     resampleCurves: 1
     optimizeGameObjects: 0
     motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
@@ -101,6 +104,7 @@ ModelImporter:
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
+    extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
       name: Default Take
@@ -126,74 +130,8 @@ ModelImporter:
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
       events: []
-      transformMask:
-      - path: 
-        weight: 1
-      - path: P_Armature
-        weight: 1
-      - path: P_Armature/Pied_L
-        weight: 1
-      - path: P_Armature/Pied_L/Pied_Rot_Control_L
-        weight: 1
-      - path: P_Armature/Pied_L/Pied_Rot_Control_L/PiedAv_L
-        weight: 1
-      - path: P_Armature/Pied_R
-        weight: 1
-      - path: P_Armature/Pied_R/Pied_Rot_Control_R
-        weight: 1
-      - path: P_Armature/Pied_R/Pied_Rot_Control_R/PiedAv_R
-        weight: 1
-      - path: P_Armature/ventre
-        weight: 1
-      - path: P_Armature/ventre/cuisse_L
-        weight: 1
-      - path: P_Armature/ventre/cuisse_L/Tibia_L
-        weight: 1
-      - path: P_Armature/ventre/cuisse_R
-        weight: 1
-      - path: P_Armature/ventre/cuisse_R/Tibia_R
-        weight: 1
-      - path: P_Armature/ventre/Hache
-        weight: 1
-      - path: P_Armature/ventre/Sac
-        weight: 1
-      - path: P_Armature/ventre/torse
-        weight: 1
-      - path: P_Armature/ventre/torse/ArriereBras_L
-        weight: 1
-      - path: P_Armature/ventre/torse/ArriereBras_L/AvantBras_L
-        weight: 1
-      - path: P_Armature/ventre/torse/ArriereBras_L/AvantBras_L/Main_Paume_L
-        weight: 1
-      - path: P_Armature/ventre/torse/ArriereBras_L/AvantBras_L/Main_Paume_L/Main_ArPouce_L
-        weight: 1
-      - path: P_Armature/ventre/torse/ArriereBras_L/AvantBras_L/Main_Paume_L/Main_ArPouce_L/MainPouce_L
-        weight: 1
-      - path: P_Armature/ventre/torse/ArriereBras_L/AvantBras_L/Main_Paume_L/Main_doigts_L
-        weight: 1
-      - path: P_Armature/ventre/torse/ArriereBras_L/AvantBras_L/Main_Paume_L/Main_doigts_L/Main_doigts_L_001
-        weight: 1
-      - path: P_Armature/ventre/torse/ArriereBras_R
-        weight: 1
-      - path: P_Armature/ventre/torse/ArriereBras_R/AvantBras_R
-        weight: 1
-      - path: P_Armature/ventre/torse/ArriereBras_R/AvantBras_R/Main_Paume_R
-        weight: 1
-      - path: P_Armature/ventre/torse/ArriereBras_R/AvantBras_R/Main_Paume_R/Main_ArPouce_R
-        weight: 1
-      - path: P_Armature/ventre/torse/ArriereBras_R/AvantBras_R/Main_Paume_R/Main_ArPouce_R/MainPouce_R
-        weight: 1
-      - path: P_Armature/ventre/torse/ArriereBras_R/AvantBras_R/Main_Paume_R/Main_doigts_R
-        weight: 1
-      - path: P_Armature/ventre/torse/ArriereBras_R/AvantBras_R/Main_Paume_R/Main_doigts_R/Main_doigts_R_001
-        weight: 1
-      - path: P_Armature/ventre/torse/cou
-        weight: 1
-      - path: P_Armature/ventre/torse/cou/tete
-        weight: 1
-      - path: Personnage_Assembl_
-        weight: 1
-      maskType: 0
+      transformMask: []
+      maskType: 3
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
@@ -208,7 +146,7 @@ ModelImporter:
       loop: 0
       hasAdditiveReferencePose: 0
       loopTime: 1
-      loopBlend: 1
+      loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
       loopBlendPositionXZ: 0
@@ -220,74 +158,8 @@ ModelImporter:
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
       events: []
-      transformMask:
-      - path: 
-        weight: 1
-      - path: P_Armature
-        weight: 1
-      - path: P_Armature/Pied_L
-        weight: 1
-      - path: P_Armature/Pied_L/Pied_Rot_Control_L
-        weight: 1
-      - path: P_Armature/Pied_L/Pied_Rot_Control_L/PiedAv_L
-        weight: 1
-      - path: P_Armature/Pied_R
-        weight: 1
-      - path: P_Armature/Pied_R/Pied_Rot_Control_R
-        weight: 1
-      - path: P_Armature/Pied_R/Pied_Rot_Control_R/PiedAv_R
-        weight: 1
-      - path: P_Armature/ventre
-        weight: 1
-      - path: P_Armature/ventre/cuisse_L
-        weight: 1
-      - path: P_Armature/ventre/cuisse_L/Tibia_L
-        weight: 1
-      - path: P_Armature/ventre/cuisse_R
-        weight: 1
-      - path: P_Armature/ventre/cuisse_R/Tibia_R
-        weight: 1
-      - path: P_Armature/ventre/Hache
-        weight: 1
-      - path: P_Armature/ventre/Sac
-        weight: 1
-      - path: P_Armature/ventre/torse
-        weight: 1
-      - path: P_Armature/ventre/torse/ArriereBras_L
-        weight: 1
-      - path: P_Armature/ventre/torse/ArriereBras_L/AvantBras_L
-        weight: 1
-      - path: P_Armature/ventre/torse/ArriereBras_L/AvantBras_L/Main_Paume_L
-        weight: 1
-      - path: P_Armature/ventre/torse/ArriereBras_L/AvantBras_L/Main_Paume_L/Main_ArPouce_L
-        weight: 1
-      - path: P_Armature/ventre/torse/ArriereBras_L/AvantBras_L/Main_Paume_L/Main_ArPouce_L/MainPouce_L
-        weight: 1
-      - path: P_Armature/ventre/torse/ArriereBras_L/AvantBras_L/Main_Paume_L/Main_doigts_L
-        weight: 1
-      - path: P_Armature/ventre/torse/ArriereBras_L/AvantBras_L/Main_Paume_L/Main_doigts_L/Main_doigts_L_001
-        weight: 1
-      - path: P_Armature/ventre/torse/ArriereBras_R
-        weight: 1
-      - path: P_Armature/ventre/torse/ArriereBras_R/AvantBras_R
-        weight: 1
-      - path: P_Armature/ventre/torse/ArriereBras_R/AvantBras_R/Main_Paume_R
-        weight: 1
-      - path: P_Armature/ventre/torse/ArriereBras_R/AvantBras_R/Main_Paume_R/Main_ArPouce_R
-        weight: 1
-      - path: P_Armature/ventre/torse/ArriereBras_R/AvantBras_R/Main_Paume_R/Main_ArPouce_R/MainPouce_R
-        weight: 1
-      - path: P_Armature/ventre/torse/ArriereBras_R/AvantBras_R/Main_Paume_R/Main_doigts_R
-        weight: 1
-      - path: P_Armature/ventre/torse/ArriereBras_R/AvantBras_R/Main_Paume_R/Main_doigts_R/Main_doigts_R_001
-        weight: 1
-      - path: P_Armature/ventre/torse/cou
-        weight: 1
-      - path: P_Armature/ventre/torse/cou/tete
-        weight: 1
-      - path: Personnage_Assembl_
-        weight: 1
-      maskType: 0
+      transformMask: []
+      maskType: 3
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
@@ -314,74 +186,8 @@ ModelImporter:
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
       events: []
-      transformMask:
-      - path: 
-        weight: 1
-      - path: P_Armature
-        weight: 1
-      - path: P_Armature/Pied_L
-        weight: 1
-      - path: P_Armature/Pied_L/Pied_Rot_Control_L
-        weight: 1
-      - path: P_Armature/Pied_L/Pied_Rot_Control_L/PiedAv_L
-        weight: 1
-      - path: P_Armature/Pied_R
-        weight: 1
-      - path: P_Armature/Pied_R/Pied_Rot_Control_R
-        weight: 1
-      - path: P_Armature/Pied_R/Pied_Rot_Control_R/PiedAv_R
-        weight: 1
-      - path: P_Armature/ventre
-        weight: 1
-      - path: P_Armature/ventre/cuisse_L
-        weight: 1
-      - path: P_Armature/ventre/cuisse_L/Tibia_L
-        weight: 1
-      - path: P_Armature/ventre/cuisse_R
-        weight: 1
-      - path: P_Armature/ventre/cuisse_R/Tibia_R
-        weight: 1
-      - path: P_Armature/ventre/Hache
-        weight: 1
-      - path: P_Armature/ventre/Sac
-        weight: 1
-      - path: P_Armature/ventre/torse
-        weight: 1
-      - path: P_Armature/ventre/torse/ArriereBras_L
-        weight: 1
-      - path: P_Armature/ventre/torse/ArriereBras_L/AvantBras_L
-        weight: 1
-      - path: P_Armature/ventre/torse/ArriereBras_L/AvantBras_L/Main_Paume_L
-        weight: 1
-      - path: P_Armature/ventre/torse/ArriereBras_L/AvantBras_L/Main_Paume_L/Main_ArPouce_L
-        weight: 1
-      - path: P_Armature/ventre/torse/ArriereBras_L/AvantBras_L/Main_Paume_L/Main_ArPouce_L/MainPouce_L
-        weight: 1
-      - path: P_Armature/ventre/torse/ArriereBras_L/AvantBras_L/Main_Paume_L/Main_doigts_L
-        weight: 1
-      - path: P_Armature/ventre/torse/ArriereBras_L/AvantBras_L/Main_Paume_L/Main_doigts_L/Main_doigts_L_001
-        weight: 1
-      - path: P_Armature/ventre/torse/ArriereBras_R
-        weight: 1
-      - path: P_Armature/ventre/torse/ArriereBras_R/AvantBras_R
-        weight: 1
-      - path: P_Armature/ventre/torse/ArriereBras_R/AvantBras_R/Main_Paume_R
-        weight: 1
-      - path: P_Armature/ventre/torse/ArriereBras_R/AvantBras_R/Main_Paume_R/Main_ArPouce_R
-        weight: 1
-      - path: P_Armature/ventre/torse/ArriereBras_R/AvantBras_R/Main_Paume_R/Main_ArPouce_R/MainPouce_R
-        weight: 1
-      - path: P_Armature/ventre/torse/ArriereBras_R/AvantBras_R/Main_Paume_R/Main_doigts_R
-        weight: 1
-      - path: P_Armature/ventre/torse/ArriereBras_R/AvantBras_R/Main_Paume_R/Main_doigts_R/Main_doigts_R_001
-        weight: 1
-      - path: P_Armature/ventre/torse/cou
-        weight: 1
-      - path: P_Armature/ventre/torse/cou/tete
-        weight: 1
-      - path: Personnage_Assembl_
-        weight: 1
-      maskType: 0
+      transformMask: []
+      maskType: 3
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
@@ -408,74 +214,8 @@ ModelImporter:
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
       events: []
-      transformMask:
-      - path: 
-        weight: 1
-      - path: P_Armature
-        weight: 1
-      - path: P_Armature/Pied_L
-        weight: 1
-      - path: P_Armature/Pied_L/Pied_Rot_Control_L
-        weight: 1
-      - path: P_Armature/Pied_L/Pied_Rot_Control_L/PiedAv_L
-        weight: 1
-      - path: P_Armature/Pied_R
-        weight: 1
-      - path: P_Armature/Pied_R/Pied_Rot_Control_R
-        weight: 1
-      - path: P_Armature/Pied_R/Pied_Rot_Control_R/PiedAv_R
-        weight: 1
-      - path: P_Armature/ventre
-        weight: 1
-      - path: P_Armature/ventre/cuisse_L
-        weight: 1
-      - path: P_Armature/ventre/cuisse_L/Tibia_L
-        weight: 1
-      - path: P_Armature/ventre/cuisse_R
-        weight: 1
-      - path: P_Armature/ventre/cuisse_R/Tibia_R
-        weight: 1
-      - path: P_Armature/ventre/Hache
-        weight: 1
-      - path: P_Armature/ventre/Sac
-        weight: 1
-      - path: P_Armature/ventre/torse
-        weight: 1
-      - path: P_Armature/ventre/torse/ArriereBras_L
-        weight: 1
-      - path: P_Armature/ventre/torse/ArriereBras_L/AvantBras_L
-        weight: 1
-      - path: P_Armature/ventre/torse/ArriereBras_L/AvantBras_L/Main_Paume_L
-        weight: 1
-      - path: P_Armature/ventre/torse/ArriereBras_L/AvantBras_L/Main_Paume_L/Main_ArPouce_L
-        weight: 1
-      - path: P_Armature/ventre/torse/ArriereBras_L/AvantBras_L/Main_Paume_L/Main_ArPouce_L/MainPouce_L
-        weight: 1
-      - path: P_Armature/ventre/torse/ArriereBras_L/AvantBras_L/Main_Paume_L/Main_doigts_L
-        weight: 1
-      - path: P_Armature/ventre/torse/ArriereBras_L/AvantBras_L/Main_Paume_L/Main_doigts_L/Main_doigts_L_001
-        weight: 1
-      - path: P_Armature/ventre/torse/ArriereBras_R
-        weight: 1
-      - path: P_Armature/ventre/torse/ArriereBras_R/AvantBras_R
-        weight: 1
-      - path: P_Armature/ventre/torse/ArriereBras_R/AvantBras_R/Main_Paume_R
-        weight: 1
-      - path: P_Armature/ventre/torse/ArriereBras_R/AvantBras_R/Main_Paume_R/Main_ArPouce_R
-        weight: 1
-      - path: P_Armature/ventre/torse/ArriereBras_R/AvantBras_R/Main_Paume_R/Main_ArPouce_R/MainPouce_R
-        weight: 1
-      - path: P_Armature/ventre/torse/ArriereBras_R/AvantBras_R/Main_Paume_R/Main_doigts_R
-        weight: 1
-      - path: P_Armature/ventre/torse/ArriereBras_R/AvantBras_R/Main_Paume_R/Main_doigts_R/Main_doigts_R_001
-        weight: 1
-      - path: P_Armature/ventre/torse/cou
-        weight: 1
-      - path: P_Armature/ventre/torse/cou/tete
-        weight: 1
-      - path: Personnage_Assembl_
-        weight: 1
-      maskType: 0
+      transformMask: []
+      maskType: 3
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
@@ -490,7 +230,7 @@ ModelImporter:
       loop: 0
       hasAdditiveReferencePose: 0
       loopTime: 1
-      loopBlend: 1
+      loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
       loopBlendPositionXZ: 0
@@ -502,81 +242,43 @@ ModelImporter:
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
       events: []
-      transformMask:
-      - path: 
-        weight: 1
-      - path: P_Armature
-        weight: 1
-      - path: P_Armature/Pied_L
-        weight: 1
-      - path: P_Armature/Pied_L/Pied_Rot_Control_L
-        weight: 1
-      - path: P_Armature/Pied_L/Pied_Rot_Control_L/PiedAv_L
-        weight: 1
-      - path: P_Armature/Pied_R
-        weight: 1
-      - path: P_Armature/Pied_R/Pied_Rot_Control_R
-        weight: 1
-      - path: P_Armature/Pied_R/Pied_Rot_Control_R/PiedAv_R
-        weight: 1
-      - path: P_Armature/ventre
-        weight: 1
-      - path: P_Armature/ventre/cuisse_L
-        weight: 1
-      - path: P_Armature/ventre/cuisse_L/Tibia_L
-        weight: 1
-      - path: P_Armature/ventre/cuisse_R
-        weight: 1
-      - path: P_Armature/ventre/cuisse_R/Tibia_R
-        weight: 1
-      - path: P_Armature/ventre/Hache
-        weight: 1
-      - path: P_Armature/ventre/Sac
-        weight: 1
-      - path: P_Armature/ventre/torse
-        weight: 1
-      - path: P_Armature/ventre/torse/ArriereBras_L
-        weight: 1
-      - path: P_Armature/ventre/torse/ArriereBras_L/AvantBras_L
-        weight: 1
-      - path: P_Armature/ventre/torse/ArriereBras_L/AvantBras_L/Main_Paume_L
-        weight: 1
-      - path: P_Armature/ventre/torse/ArriereBras_L/AvantBras_L/Main_Paume_L/Main_ArPouce_L
-        weight: 1
-      - path: P_Armature/ventre/torse/ArriereBras_L/AvantBras_L/Main_Paume_L/Main_ArPouce_L/MainPouce_L
-        weight: 1
-      - path: P_Armature/ventre/torse/ArriereBras_L/AvantBras_L/Main_Paume_L/Main_doigts_L
-        weight: 1
-      - path: P_Armature/ventre/torse/ArriereBras_L/AvantBras_L/Main_Paume_L/Main_doigts_L/Main_doigts_L_001
-        weight: 1
-      - path: P_Armature/ventre/torse/ArriereBras_R
-        weight: 1
-      - path: P_Armature/ventre/torse/ArriereBras_R/AvantBras_R
-        weight: 1
-      - path: P_Armature/ventre/torse/ArriereBras_R/AvantBras_R/Main_Paume_R
-        weight: 1
-      - path: P_Armature/ventre/torse/ArriereBras_R/AvantBras_R/Main_Paume_R/Main_ArPouce_R
-        weight: 1
-      - path: P_Armature/ventre/torse/ArriereBras_R/AvantBras_R/Main_Paume_R/Main_ArPouce_R/MainPouce_R
-        weight: 1
-      - path: P_Armature/ventre/torse/ArriereBras_R/AvantBras_R/Main_Paume_R/Main_doigts_R
-        weight: 1
-      - path: P_Armature/ventre/torse/ArriereBras_R/AvantBras_R/Main_Paume_R/Main_doigts_R/Main_doigts_R_001
-        weight: 1
-      - path: P_Armature/ventre/torse/cou
-        weight: 1
-      - path: P_Armature/ventre/torse/cou/tete
-        weight: 1
-      - path: Personnage_Assembl_
-        weight: 1
-      maskType: 0
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Attente_001
+      takeName: Attente_001
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Course
       takeName: Course
       firstFrame: 0
-      lastFrame: 16
+      lastFrame: 24
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -584,7 +286,7 @@ ModelImporter:
       loop: 0
       hasAdditiveReferencePose: 0
       loopTime: 1
-      loopBlend: 1
+      loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
       loopBlendPositionXZ: 0
@@ -596,74 +298,8 @@ ModelImporter:
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
       events: []
-      transformMask:
-      - path: 
-        weight: 1
-      - path: P_Armature
-        weight: 1
-      - path: P_Armature/Pied_L
-        weight: 1
-      - path: P_Armature/Pied_L/Pied_Rot_Control_L
-        weight: 1
-      - path: P_Armature/Pied_L/Pied_Rot_Control_L/PiedAv_L
-        weight: 1
-      - path: P_Armature/Pied_R
-        weight: 1
-      - path: P_Armature/Pied_R/Pied_Rot_Control_R
-        weight: 1
-      - path: P_Armature/Pied_R/Pied_Rot_Control_R/PiedAv_R
-        weight: 1
-      - path: P_Armature/ventre
-        weight: 1
-      - path: P_Armature/ventre/cuisse_L
-        weight: 1
-      - path: P_Armature/ventre/cuisse_L/Tibia_L
-        weight: 1
-      - path: P_Armature/ventre/cuisse_R
-        weight: 1
-      - path: P_Armature/ventre/cuisse_R/Tibia_R
-        weight: 1
-      - path: P_Armature/ventre/Hache
-        weight: 1
-      - path: P_Armature/ventre/Sac
-        weight: 1
-      - path: P_Armature/ventre/torse
-        weight: 1
-      - path: P_Armature/ventre/torse/ArriereBras_L
-        weight: 1
-      - path: P_Armature/ventre/torse/ArriereBras_L/AvantBras_L
-        weight: 1
-      - path: P_Armature/ventre/torse/ArriereBras_L/AvantBras_L/Main_Paume_L
-        weight: 1
-      - path: P_Armature/ventre/torse/ArriereBras_L/AvantBras_L/Main_Paume_L/Main_ArPouce_L
-        weight: 1
-      - path: P_Armature/ventre/torse/ArriereBras_L/AvantBras_L/Main_Paume_L/Main_ArPouce_L/MainPouce_L
-        weight: 1
-      - path: P_Armature/ventre/torse/ArriereBras_L/AvantBras_L/Main_Paume_L/Main_doigts_L
-        weight: 1
-      - path: P_Armature/ventre/torse/ArriereBras_L/AvantBras_L/Main_Paume_L/Main_doigts_L/Main_doigts_L_001
-        weight: 1
-      - path: P_Armature/ventre/torse/ArriereBras_R
-        weight: 1
-      - path: P_Armature/ventre/torse/ArriereBras_R/AvantBras_R
-        weight: 1
-      - path: P_Armature/ventre/torse/ArriereBras_R/AvantBras_R/Main_Paume_R
-        weight: 1
-      - path: P_Armature/ventre/torse/ArriereBras_R/AvantBras_R/Main_Paume_R/Main_ArPouce_R
-        weight: 1
-      - path: P_Armature/ventre/torse/ArriereBras_R/AvantBras_R/Main_Paume_R/Main_ArPouce_R/MainPouce_R
-        weight: 1
-      - path: P_Armature/ventre/torse/ArriereBras_R/AvantBras_R/Main_Paume_R/Main_doigts_R
-        weight: 1
-      - path: P_Armature/ventre/torse/ArriereBras_R/AvantBras_R/Main_Paume_R/Main_doigts_R/Main_doigts_R_001
-        weight: 1
-      - path: P_Armature/ventre/torse/cou
-        weight: 1
-      - path: P_Armature/ventre/torse/cou/tete
-        weight: 1
-      - path: Personnage_Assembl_
-        weight: 1
-      maskType: 0
+      transformMask: []
+      maskType: 3
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
@@ -678,7 +314,7 @@ ModelImporter:
       loop: 0
       hasAdditiveReferencePose: 0
       loopTime: 1
-      loopBlend: 1
+      loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
       loopBlendPositionXZ: 0
@@ -690,74 +326,8 @@ ModelImporter:
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
       events: []
-      transformMask:
-      - path: 
-        weight: 1
-      - path: P_Armature
-        weight: 1
-      - path: P_Armature/Pied_L
-        weight: 1
-      - path: P_Armature/Pied_L/Pied_Rot_Control_L
-        weight: 1
-      - path: P_Armature/Pied_L/Pied_Rot_Control_L/PiedAv_L
-        weight: 1
-      - path: P_Armature/Pied_R
-        weight: 1
-      - path: P_Armature/Pied_R/Pied_Rot_Control_R
-        weight: 1
-      - path: P_Armature/Pied_R/Pied_Rot_Control_R/PiedAv_R
-        weight: 1
-      - path: P_Armature/ventre
-        weight: 1
-      - path: P_Armature/ventre/cuisse_L
-        weight: 1
-      - path: P_Armature/ventre/cuisse_L/Tibia_L
-        weight: 1
-      - path: P_Armature/ventre/cuisse_R
-        weight: 1
-      - path: P_Armature/ventre/cuisse_R/Tibia_R
-        weight: 1
-      - path: P_Armature/ventre/Hache
-        weight: 1
-      - path: P_Armature/ventre/Sac
-        weight: 1
-      - path: P_Armature/ventre/torse
-        weight: 1
-      - path: P_Armature/ventre/torse/ArriereBras_L
-        weight: 1
-      - path: P_Armature/ventre/torse/ArriereBras_L/AvantBras_L
-        weight: 1
-      - path: P_Armature/ventre/torse/ArriereBras_L/AvantBras_L/Main_Paume_L
-        weight: 1
-      - path: P_Armature/ventre/torse/ArriereBras_L/AvantBras_L/Main_Paume_L/Main_ArPouce_L
-        weight: 1
-      - path: P_Armature/ventre/torse/ArriereBras_L/AvantBras_L/Main_Paume_L/Main_ArPouce_L/MainPouce_L
-        weight: 1
-      - path: P_Armature/ventre/torse/ArriereBras_L/AvantBras_L/Main_Paume_L/Main_doigts_L
-        weight: 1
-      - path: P_Armature/ventre/torse/ArriereBras_L/AvantBras_L/Main_Paume_L/Main_doigts_L/Main_doigts_L_001
-        weight: 1
-      - path: P_Armature/ventre/torse/ArriereBras_R
-        weight: 1
-      - path: P_Armature/ventre/torse/ArriereBras_R/AvantBras_R
-        weight: 1
-      - path: P_Armature/ventre/torse/ArriereBras_R/AvantBras_R/Main_Paume_R
-        weight: 1
-      - path: P_Armature/ventre/torse/ArriereBras_R/AvantBras_R/Main_Paume_R/Main_ArPouce_R
-        weight: 1
-      - path: P_Armature/ventre/torse/ArriereBras_R/AvantBras_R/Main_Paume_R/Main_ArPouce_R/MainPouce_R
-        weight: 1
-      - path: P_Armature/ventre/torse/ArriereBras_R/AvantBras_R/Main_Paume_R/Main_doigts_R
-        weight: 1
-      - path: P_Armature/ventre/torse/ArriereBras_R/AvantBras_R/Main_Paume_R/Main_doigts_R/Main_doigts_R_001
-        weight: 1
-      - path: P_Armature/ventre/torse/cou
-        weight: 1
-      - path: P_Armature/ventre/torse/cou/tete
-        weight: 1
-      - path: Personnage_Assembl_
-        weight: 1
-      maskType: 0
+      transformMask: []
+      maskType: 3
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     isReadable: 1
@@ -766,7 +336,10 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+    importVisibility: 1
     importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
@@ -782,9 +355,11 @@ ModelImporter:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 3
+    normalCalculationMode: 4
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
+    serializedVersion: 2
     human: []
     skeleton: []
     armTwist: 0.5
@@ -795,7 +370,10 @@ ModelImporter:
     legStretch: 0.05
     feetSpacing: 0
     rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   animationType: 2
   humanoidOversampling: 1
