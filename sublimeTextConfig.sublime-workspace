@@ -63,7 +63,16 @@
 			"file": "Assets/Script/SCR_WaterMove.cs",
 			"settings":
 			{
-				"buffer_size": 859,
+				"buffer_size": 1053,
+				"encoding": "UTF-8 with BOM",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Assets/Material/SHA_distortion.shader",
+			"settings":
+			{
+				"buffer_size": 4230,
 				"encoding": "UTF-8 with BOM",
 				"line_ending": "Unix"
 			}
@@ -75,14 +84,6 @@
 				"buffer_size": 86,
 				"line_ending": "Windows",
 				"name": "import bpy"
-			}
-		},
-		{
-			"file": "Assets/Data/NatureStarterKit2/Standard Assets/Effects/GlassRefraction/Shaders/GlassStainedBumpDistort.shader",
-			"settings":
-			{
-				"buffer_size": 2486,
-				"line_ending": "Unix"
 			}
 		}
 	],
@@ -126,6 +127,9 @@
 	],
 	"file_history":
 	[
+		"/C/Users/Public/Documents/Unity Projects/GIT_UmbraProject/Umbra_Project/Assets/Data/NatureStarterKit2/Standard Assets/Effects/GlassRefraction/Shaders/GlassStainedBumpDistort.shader",
+		"/C/Users/Public/Documents/Unity Projects/GIT_UmbraProject/Umbra_Project/Assets/Object/BrenderModel/Personnage/SCR_Player.cs",
+		"/C/Users/Public/Documents/Unity Projects/Labyrinth3D/Assets/Scripts/Joueur.js",
 		"/C/Users/QuentinM/AppData/Roaming/Sublime Text 3/Packages/OmniSharp/OmniSharpSublime.sublime-settings",
 		"/C/Users/QuentinM/AppData/Roaming/Sublime Text 3/Packages/User/OmniSharpSublime.sublime-settings",
 		"/C/Users/Public/Documents/Unity Projects/GIT_UmbraProject/Umbra_Project/sublimeTextConfig.sublime-project",
@@ -209,7 +213,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -218,15 +222,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 859,
+						"buffer_size": 1053,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								175,
-								175
+								1045,
+								1045
 							]
 						],
 						"settings":
@@ -242,11 +246,40 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
+					"file": "Assets/Material/SHA_distortion.shader",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4230,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								366,
+								377
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Unity3D Shader Highlighter and Snippets/UnityShader.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
 					"semi_transient": false,
 					"settings":
 					{
@@ -257,7 +290,7 @@
 						"selection":
 						[
 							[
-								0,
+								86,
 								86
 							]
 						],
@@ -270,36 +303,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "Assets/Data/NatureStarterKit2/Standard Assets/Effects/GlassRefraction/Shaders/GlassStainedBumpDistort.shader",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2486,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2221,
-								2221
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Unity3D Shader Highlighter and Snippets/UnityShader.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1173.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]

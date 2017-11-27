@@ -11,12 +11,14 @@ public class SCR_WaterMove : MonoBehaviour {
 	Vector3 position;
 	float time;
 	float initYPos;
+	float distortionValue;
 
 	void Start () {
 
 		/* Init var */
 		m_Material = GetComponent<Renderer>().material;
 		textureOffset = m_Material.GetTextureOffset("_BumpMap");
+		distortionValue = m_Material.GetFloat("_Distortion");
 
 		position = transform.position;
 		initYPos = position.y;
@@ -33,5 +35,8 @@ public class SCR_WaterMove : MonoBehaviour {
 		time = time + speed.y * Time.deltaTime;
 		position.y = initYPos + Mathf.Sin(time) * waveHeight;
 		transform.position = position;
+
+		/* Changement de la distortion */
+		m_Material.SetFloat("_Distortion", distortionValue + Mathf.Sin(time) * 5);
 	}
 }
