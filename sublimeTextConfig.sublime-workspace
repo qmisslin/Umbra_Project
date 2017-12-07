@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"inner",
+				"innerHeight"
+			],
+			[
+				"back",
+				"background-position"
+			],
+			[
+				"thu",
+				"thumbnail_html"
+			],
+			[
+				"cont",
+				"container"
+			],
+			[
 				"_Fa",
 				"_FadeDiffuse"
 			],
@@ -26,10 +42,6 @@
 			[
 				"tran",
 				"transition"
-			],
-			[
-				"back",
-				"background-color"
 			],
 			[
 				"scale",
@@ -60,30 +72,39 @@
 	"buffers":
 	[
 		{
-			"file": "Assets/Script/SCR_WaterMove.cs",
+			"file": "/C/Users/QuentinM/Desktop/Nuit_De_L_Info/test/index.html",
 			"settings":
 			{
-				"buffer_size": 1053,
-				"encoding": "UTF-8 with BOM",
-				"line_ending": "Unix"
+				"buffer_size": 296,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "Assets/Material/SHA_distortion.shader",
+			"file": "/C/Users/QuentinM/Desktop/Nuit_De_L_Info/test/style.css",
 			"settings":
 			{
-				"buffer_size": 4230,
-				"encoding": "UTF-8 with BOM",
-				"line_ending": "Unix"
+				"buffer_size": 44,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": "import bpy\nfor a in bpy.data.actions:\n\tif(a.use_fake_user == False):\n\t\ta.user_clear();",
+			"file": "/C/Users/QuentinM/Desktop/Nuit_De_L_Info/test/js/script.js",
 			"settings":
 			{
-				"buffer_size": 86,
-				"line_ending": "Windows",
-				"name": "import bpy"
+				"buffer_size": 1626,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/QuentinM/Desktop/Nuit_De_L_Info/test/js/OBJLoader.js",
+			"settings":
+			{
+				"buffer_size": 23149,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -94,22 +115,36 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 490.0,
-		"last_filter": "packa",
+		"height": 469.0,
+		"last_filter": "prv",
 		"selected_items":
 		[
+			[
+				"prv",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"package con",
+				"Package Control: Install Package"
+			],
+			[
+				"package ",
+				"Preferences: Browse Packages"
+			],
 			[
 				"packa",
 				"Package Control: Install Package"
 			]
 		],
-		"width": 609.0
+		"width": 565.0
 	},
 	"console":
 	{
 		"height": 317.0,
 		"history":
 		[
+			"import urllib2,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), 'wb' ).write(by) if dh == h else None; print('Error validating download (got %s instead of %s), please try manual install' % (dh, h) if dh != h else 'Please restart Sublime Text to finish installation')",
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
 		]
 	},
 	"distraction_free":
@@ -127,6 +162,48 @@
 	],
 	"file_history":
 	[
+		"/C/wamp64/www/wordpress/wp-content/themes/ArtusTheme/functions.php",
+		"/C/Users/QuentinM/Desktop/Nuit_De_L_Info/three.js-master/test/style.css",
+		"/C/Users/QuentinM/Desktop/Nuit_De_L_Info/three.js-master/test/index.html",
+		"/C/Users/QuentinM/Desktop/Nuit_De_L_Info/three.js-master/test/js/script.js",
+		"/C/Quentin/Windows/Programmation/Cours/TUTO_SublimeText.txt",
+		"/C/Quentin/Windows/Programmation/Projet_Web/3d_HTML5_V2/index.html",
+		"/C/Users/QuentinM/AppData/Roaming/Sublime Text 3/Packages/HTML/Snippets/html.sublime-snippet",
+		"/C/Users/QuentinM/AppData/Roaming/Sublime Text 3/Packages/HTML/Snippets/html (begin tag).sublime-snippet",
+		"/C/Users/QuentinM/AppData/Roaming/Sublime Text 3/Packages/HTML/HTML.sublime-syntax",
+		"/C/wamp64/www/wordpress/wp-content/themes/ArtusTheme/function-admin.php",
+		"/C/wamp64/www/wordpress/wp-content/themes/ArtusTheme/artus-admin.php",
+		"/C/wamp64/www/wordpress/wp-content/themes/ArtusTheme/index.php",
+		"/C/wamp64/www/wordpress/wp-content/themes/ArtusTheme/page.php",
+		"/C/wamp64/www/wordpress/wp-content/themes/ArtusTheme/header.php",
+		"/C/wamp64/www/wordpress/wp-content/themes/ArtusTheme/content.php",
+		"/C/wamp64/www/wordpress/wp-content/themes/ArtusTheme/tag.php",
+		"/C/wamp64/www/wordpress/wp-content/themes/ArtusTheme/category.php",
+		"/C/wamp64/www/wordpress/wp-content/themes/ArtusTheme/front-page.php",
+		"/C/wamp64/www/wordpress/wp-content/themes/ArtusTheme/single.php",
+		"/C/wamp64/www/wordpress/wp-content/themes/ArtusTheme/404.php",
+		"/C/wamp64/www/wordpress/wp-content/themes/ArtusTheme/home.php",
+		"/C/wamp64/www/wordpress/wp-content/themes/ArtusTheme/theme-options.php",
+		"/C/wamp64/www/wordpress/wp-content/themes/ArtusTheme/style.css",
+		"/C/wamp64/www/wordpress/wp-content/themes/ArtusTheme/footer.php",
+		"/C/wamp64/www/wordpress/wp-content/themes/ArtusTheme/dd.html",
+		"/C/wamp64/www/wordpress/wp-content/themes/index.php",
+		"/C/wamp64/www/wordpress/wp-content/index.php",
+		"/C/Users/QuentinM/Desktop/ArtusAsso/ARTUS_CODE.txt",
+		"/C/Users/QuentinM/Desktop/ArtusUnistra/index.html",
+		"/C/Users/QuentinM/Desktop/ArtusUnistra/Extract/index.html",
+		"/C/Users/QuentinM/Desktop/ArtusUnistra/index.php",
+		"/C/Users/Public/Documents/Unity Projects/GIT_UmbraProject/Umbra_Project/Assets/Material/SHA_distortion.shader",
+		"/C/Users/Public/Documents/Unity Projects/GIT_UmbraProject/Umbra_Project/Assets/Scripts/ImageEffects/AntialliasingEditor.cs",
+		"/C/Users/Public/Documents/Unity Projects/GIT_UmbraProject/Umbra_Project/Assets/Scripts/SCR_Player.cs",
+		"/C/Users/QuentinM/Desktop/index.php",
+		"/C/Users/Public/Documents/Unity Projects/GIT_UmbraProject/Umbra_Project/Assets/Scripts/ImageEffects/BloomAndFlaresEditor.cs",
+		"/C/Users/Public/Documents/Unity Projects/GIT_UmbraProject/Umbra_Project/Assets/Prefab/Camera/Main Camera.prefab",
+		"/C/Users/Public/Documents/Unity Projects/GIT_UmbraProject/Umbra_Project/Assets/Editor/StandardAsset/GlobalFog.cs",
+		"/C/Users/Public/Documents/Unity Projects/GIT_UmbraProject/Umbra_Project/Assets/Prefab/BrenderModel/Personnage/SCR_Player.cs",
+		"/C/Quentin/Windows/Lycée/Delphine/le temps.txt",
+		"/C/Quentin/Windows/Lycée/Delphine/pensées.txt",
+		"/C/Users/Public/Documents/Unity Projects/GIT_UmbraProject/Umbra_Project/Assets/Script/SCR_WaterMove.cs",
 		"/C/Users/Public/Documents/Unity Projects/GIT_UmbraProject/Umbra_Project/Assets/Data/NatureStarterKit2/Standard Assets/Effects/GlassRefraction/Shaders/GlassStainedBumpDistort.shader",
 		"/C/Users/Public/Documents/Unity Projects/GIT_UmbraProject/Umbra_Project/Assets/Object/BrenderModel/Personnage/SCR_Player.cs",
 		"/C/Users/Public/Documents/Unity Projects/Labyrinth3D/Assets/Scripts/Joueur.js",
@@ -134,7 +211,6 @@
 		"/C/Users/QuentinM/AppData/Roaming/Sublime Text 3/Packages/User/OmniSharpSublime.sublime-settings",
 		"/C/Users/Public/Documents/Unity Projects/GIT_UmbraProject/Umbra_Project/sublimeTextConfig.sublime-project",
 		"/C/Users/Public/Documents/Unity Projects/GIT_UmbraProject/Umbra_Project/README.md",
-		"/C/Users/Public/Documents/Unity Projects/GIT_UmbraProject/Umbra_Project/Assets/Script/SCR_WaterMove.cs",
 		"/C/Users/QuentinM/AppData/Roaming/Sublime Text 3/Packages/OmniSharp/Default.sublime-keymap",
 		"/C/Users/Public/Documents/Unity Projects/GIT_UmbraProject/Umbra_Project/Assets/Material/SHA_celShadow.shader",
 		"/C/Users/Public/Documents/Unity Projects/GIT_UmbraProject/Umbra_Project/Assets/Data/PeerPlay/Ripple Water/_scripts/CollisionScript.cs",
@@ -159,7 +235,6 @@
 		"/C/Users/Public/Documents/Unity Projects/GIT_UmbraProject/Umbra_Project/Temp/Compiled-SHA_celShadow.shader",
 		"/C/Users/Public/Documents/Unity Projects/UmbraProject/Temp/Compiled-SHA_celShadow.shader",
 		"/C/Quentin/Windows/Programmation/Projet_Web/MACAW/Test1/Test1/index.html",
-		"/C/Users/QuentinM/Desktop/ArtusAsso/ARTUS_CODE.txt",
 		"/C/Quentin/Windows/Programmation/Projet_Web/MACAW/Test1/Test1/css/index.css",
 		"/C/Quentin/Windows/Programmation/Projet_Web/MACAW/Test1/Test1/css/standardize.css",
 		"/C/Quentin/Windows/Programmation/Projet_Web/MACAW/Test1/Test1/css/index-grid.css",
@@ -169,7 +244,6 @@
 		"/C/Quentin/Windows/CMI_Informatique/L2/RAPPORT_Stage/gaf_002/SiteAssets/GAF_src/style/gaf_scrib.css",
 		"/C/Quentin/Windows/CMI_Informatique/L2/RAPPORT_Stage/gaf_002/SiteAssets/styles.css",
 		"/C/Quentin/Windows/CMI_Informatique/L2/RAPPORT_Stage/gaf_002/SiteAssets/AF_src/style.css",
-		"/C/Quentin/Windows/Programmation/Projet_Web/3d_HTML5_V2/index.html",
 		"/C/Quentin/Windows/Programmation/Projets_C++/SDL_SVG_POO/data/SUJET/examples/dessin_simple.svg",
 		"/C/Quentin/Windows/Programmation/Projets_C++/RoboticMinds4.0/RoboticMinds/main.cpp",
 		"/C/Quentin/Windows/Programmation/Projets_C++/SDL_SVG_POO/data/SUJET/examples/dessin_complex.svg",
@@ -196,6 +270,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"script",
+			"require",
+			"get_stylesheet_directory()"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -213,63 +290,57 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 3,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "Assets/Script/SCR_WaterMove.cs",
+					"file": "/C/Users/QuentinM/Desktop/Nuit_De_L_Info/test/index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1053,
+						"buffer_size": 296,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1045,
-								1045
+								225,
+								225
 							]
 						],
 						"settings":
 						{
-							"oops":
-							{
-								"6,17": "'UnityEngine' is not a known identifier",
-								"75,88": "'MonoBehaviour' is not a known identifier"
-							},
-							"syntax": "Packages/Unity3D/UnityC#.tmLanguage"
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "Assets/Material/SHA_distortion.shader",
+					"file": "/C/Users/QuentinM/Desktop/Nuit_De_L_Info/test/style.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4230,
+						"buffer_size": 44,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								366,
-								377
+								44,
+								44
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Unity3D Shader Highlighter and Snippets/UnityShader.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -280,30 +351,60 @@
 				},
 				{
 					"buffer": 2,
+					"file": "/C/Users/QuentinM/Desktop/Nuit_De_L_Info/test/js/script.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 86,
+						"buffer_size": 1626,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								86,
-								86
+								1200,
+								1200
 							]
 						],
 						"settings":
 						{
-							"auto_name": "import bpy",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/Unity3D/UnityJavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 776.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/Users/QuentinM/Desktop/Nuit_De_L_Info/test/js/OBJLoader.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 23149,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								64,
+								49
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Unity3D/UnityJavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -311,7 +412,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 27.0
+		"height": 28.0
 	},
 	"input":
 	{

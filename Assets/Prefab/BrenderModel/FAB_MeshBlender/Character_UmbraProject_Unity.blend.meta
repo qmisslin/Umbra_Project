@@ -1,0 +1,217 @@
+fileFormatVersion: 2
+guid: 73b56141d293f434284e54d9825d71a2
+timeCreated: 1512085429
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: ArriereBras_L
+    100002: ArriereBras_R
+    100004: AvantBras_L
+    100006: AvantBras_R
+    100008: //RootNode
+    100010: cou
+    100012: cuisse_L
+    100014: cuisse_R
+    100016: Hache
+    100018: Main_ArPouce_L
+    100020: Main_ArPouce_R
+    100022: Main_doigts_L
+    100024: Main_doigts_L_001
+    100026: Main_doigts_R
+    100028: Main_doigts_R_001
+    100030: Main_Paume_L
+    100032: Main_Paume_R
+    100034: MainPouce_L
+    100036: MainPouce_R
+    100038: P_Armature
+    100040: Personnage_Assembl_
+    100042: Pied_L
+    100044: Pied_R
+    100046: Pied_Rot_Control_L
+    100048: Pied_Rot_Control_R
+    100050: PiedAv_L
+    100052: PiedAv_R
+    100054: Sac
+    100056: tete
+    100058: Tibia_L
+    100060: Tibia_R
+    100062: torse
+    100064: ventre
+    400000: ArriereBras_L
+    400002: ArriereBras_R
+    400004: AvantBras_L
+    400006: AvantBras_R
+    400008: //RootNode
+    400010: cou
+    400012: cuisse_L
+    400014: cuisse_R
+    400016: Hache
+    400018: Main_ArPouce_L
+    400020: Main_ArPouce_R
+    400022: Main_doigts_L
+    400024: Main_doigts_L_001
+    400026: Main_doigts_R
+    400028: Main_doigts_R_001
+    400030: Main_Paume_L
+    400032: Main_Paume_R
+    400034: MainPouce_L
+    400036: MainPouce_R
+    400038: P_Armature
+    400040: Personnage_Assembl_
+    400042: Pied_L
+    400044: Pied_R
+    400046: Pied_Rot_Control_L
+    400048: Pied_Rot_Control_R
+    400050: PiedAv_L
+    400052: PiedAv_R
+    400054: Sac
+    400056: tete
+    400058: Tibia_L
+    400060: Tibia_R
+    400062: torse
+    400064: ventre
+    4300000: Personnage_Assembl_
+    7400000: Default Take
+    7400002: AttaqueBoucle
+    7400004: AttaqueDebut
+    7400006: AttaqueFin
+    7400008: Attente
+    7400010: Attente_001
+    7400012: Course
+    7400014: Marche
+    9500000: //RootNode
+    13700000: Personnage_Assembl_
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Beige
+    second: {fileID: 2100000, guid: c60b06897a3fd684a96fa31e285247ec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Blanc
+    second: {fileID: 2100000, guid: 09173ff7527020d4ea8ea301ed8b8a7e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gris
+    second: {fileID: 2100000, guid: b6f5490522f4b4e40998e4dc3a7711ff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GrisClair
+    second: {fileID: 2100000, guid: 686cc5cb1018b1a4fa7153fc52e3eb54, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Noir
+    second: {fileID: 2100000, guid: e561c8b671dfc8c42b98d97643bc6f6e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vert
+    second: {fileID: 2100000, guid: 6e437974070b0e0479c0f2c0ef0167ec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: VertFonce
+    second: {fileID: 2100000, guid: 32d80a7f8e6938342abedb30e59829c4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Veste
+    second: {fileID: 2100000, guid: 0d306e8db23baa54a80079aa1f518045, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: brun
+    second: {fileID: 2100000, guid: 7b5e9d48fc306e345ae6e47216f1719b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: brunClair
+    second: {fileID: 2100000, guid: 2e1a00d53a2b79f489793add314826ff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: peau
+    second: {fileID: 2100000, guid: ff7379c1cb5acad4480c460f36b5f9bb, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
